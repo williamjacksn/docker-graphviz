@@ -1,6 +1,5 @@
-version: '3.7'
+version: '3.8'
 
 services:
   graphviz:
-    image: docker.pkg.github.com/williamjacksn/docker-graphviz/graphviz
-    build: .
+    image: ghcr.io/williamjacksn/graphviz
