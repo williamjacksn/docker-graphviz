@@ -1,4 +1,4 @@
-FROM alpine:3.20.0
+FROM alpine:3.20.1
 
 ARG GRAPHVIZ_VERSION="9.0.0-r1"
 
