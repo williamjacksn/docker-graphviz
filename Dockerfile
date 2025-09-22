@@ -1,6 +1,6 @@
-FROM alpine:3.21
+FROM alpine:3.22
 
-ARG GRAPHVIZ_VERSION="12.2.0-r0"
+ARG GRAPHVIZ_VERSION="12.2.1-r0"
 
 RUN /sbin/apk add --no-cache "graphviz=${GRAPHVIZ_VERSION}" ttf-liberation
 
